@@ -1,0 +1,22 @@
+header {
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.header-icons {
+    object-fit: contain;
+    width: 24px;
+    height: 24px;
+    background-color: rgb(180, 178, 178);
+    cursor: pointer;
+}
+
+.left-section {
+    display: flex;
+    align-items: center;
+}
