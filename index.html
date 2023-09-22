@@ -4,26 +4,56 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Door Dash</title>
-    <link rel="stylesheet" href="general.css" />
-    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/mainpage.css" />
   </head>
   <body>
     <header>
       <section class="left-section">
-        <img class="header-icons" src="images/Hamburger_icon.svg.png" alt="" />
-        <img class="header-icons" src="images/doordash-icon.webp" alt="" />
-        <button>Delivery</button>
-        <button>Pickup</button>
+        <img
+          id="menu-icon"
+          src="images/header-images/Hamburger_icon.svg.png"
+          alt=""
+        />
+        <img
+          id="doordash-logo"
+          src="images/header-images/doordash-logo.png"
+          alt=""
+        />
+        <button class="delivery-button header-button-selected">Delivery</button>
+        <button class="pickup-button">Pickup</button>
       </section>
       <section class="middle-section">
-        <img class="header-icons" src="images/search-icon.png" alt="" />
-        <input type="text" class="search-bar" />
+        <img
+          class="search-icon"
+          src="images/header-images/search-icon.png"
+          alt=""
+        />
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search stores, dishes, products"
+        />
       </section>
       <section class="right-section">
-        <img class="header-icons" src="images/bell-icon.png" alt="" />
-        <img class="header-icons" src="images/shopping-cart-icon.png" alt="" />
+        <img
+          class="bell-icon"
+          src="images/header-images/bell-icon.png"
+          alt=""
+        />
+        <img
+          class="shopping-cart-icon"
+          src="images/header-images/shopping-cart-icon.png"
+          alt=""
+        />
       </section>
     </header>
-    <script src="script.js"></script>
+    <main>
+      <p class="main-title">Restaurants in Your Area</p>
+      <div class="restaurant-grid"></div>
+    </main>
+    <script type="module" src="scripts/doordash.js"></script>
   </body>
 </html>
+<!DOCTYPE html>

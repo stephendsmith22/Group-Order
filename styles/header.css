@@ -1,0 +1,104 @@
+header {
+    height: 65px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    border-bottom: 1px solid rgb(218, 218, 218);
+    padding-left: 60px;
+    padding-right: 120px;
+    background-color: white;
+}
+
+
+.left-section {
+    display: flex;
+    align-items: center;    
+}
+
+#menu-icon {
+    width: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+#doordash-logo {
+    width: 160px;
+    margin: 25px;
+    cursor: pointer;
+}
+
+
+.delivery-button, .pickup-button {
+    background-color: white;
+    color: black;
+    height: 32px;
+    width: 78px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 37px;
+    cursor: pointer;
+}
+
+.header-button-selected {
+    background-color: black;
+    color: white;
+}
+
+
+.middle-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    margin: 0px 15px;
+}
+
+.search-icon {
+    background-color: rgb(247, 247, 247);
+    width: 40px;
+    padding: 12px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    cursor: pointer;
+}
+
+.search-bar {
+    background-color: rgb(247, 247, 247);
+    height: 40px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.search-bar::placeholder {
+    color: rgb(70, 70, 70);
+}
+
+
+
+.right-section {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.bell-icon, .shopping-cart-icon {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.bell-icon {
+    width: 27px;
+}
+
+.shopping-cart-icon {
+    width: 24px;
+}

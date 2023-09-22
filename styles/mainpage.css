@@ -1,0 +1,73 @@
+main{
+    margin-top: 75px;
+    margin-left: 55px;
+}
+
+.main-title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.restaurant-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 15px;
+    column-gap: 10px;
+    row-gap: 50px;
+}
+
+.restaurant {
+    width: 370px;
+    cursor: pointer;
+}
+
+.restaurant-image {
+    object-fit: cover;
+    width: 100%;
+    height: 172px;
+    border-radius: 5px;
+}
+
+.contents {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+.restaurant-name {
+    font-weight: 500;
+    padding: 8px 0px;
+}
+
+.delivery-info {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(163, 163, 163);
+    padding-bottom: 5px;
+}
+
+.rating-info {
+    display: flex;
+    align-items: center;
+}
+
+.rating, .ratings-count {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.star-icon {
+    width: 14px;
+    margin: 0 6px 0 2px
+}
+
+.ratings-count {
+    color: rgb(163, 163, 163);
+}
+
+.heart-icon {
+    position: absolute;
+    width: 20px;
+    top: 5px;
+    right: 10px;
+}
