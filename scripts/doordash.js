@@ -4,7 +4,6 @@ let restaurantGridHTML = '';
 let restaurantGrid = document.querySelector('.restaurant-grid');
 
 
-
 function displayGrid(){
   console.log(restaurants);
   restaurants.forEach(restaurant => {

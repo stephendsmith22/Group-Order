@@ -24,7 +24,7 @@ export const restaurants = [
             ratings: 6800
         },
         menu_items:{
-            item: {
+            fries: {
             image: "images/menu-items/chick-fil-a/fries.avif",
             name: "Chick-fil-A Waffle Potato Fries",
             price: 345

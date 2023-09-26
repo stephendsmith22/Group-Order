@@ -3,7 +3,131 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/order.css" />
+    <link rel="stylesheet" href="styles/general.css" />
     <title>Door Dash Order</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <section class="left-section">
+        <img
+          id="menu-icon"
+          src="images/header-images/Hamburger_icon.svg.png"
+          alt=""
+        />
+        <img
+          id="doordash-logo"
+          src="images/header-images/doordash-logo.png"
+          alt=""
+        />
+        <button class="delivery-button header-button-selected">Delivery</button>
+        <button class="pickup-button">Pickup</button>
+      </section>
+      <section class="middle-section">
+        <img
+          class="search-icon"
+          src="images/header-images/search-icon.png"
+          alt=""
+        />
+        <input
+          type="text"
+          class="search-bar"
+          placeholder="Search stores, dishes, products"
+        />
+      </section>
+      <section class="right-section">
+        <img
+          class="bell-icon"
+          src="images/header-images/bell-icon.png"
+          alt=""
+        />
+        <img
+          class="shopping-cart-icon"
+          src="images/header-images/shopping-cart-icon.png"
+          alt=""
+        />
+      </section>
+    </header>
+    <main>
+      <section class="restaurant-contents">
+        <div class="top-section">
+          <div class="title">
+            <img
+              class="restaurant-background"
+              src="images/restaurant-backgrounds/chick-fil-a-background-image.avif"
+              alt=""
+            />
+            <img
+              class="logo"
+              src="images/restaurant-logos/chick-fil-a-logo.avif"
+              alt=""
+            />
+          </div>
+        </div>
+        <p class="restaurant-name">Chick-fil-A</p>
+        <div class="restaurant-info">
+          <div class="info">
+            <div class="top-info">
+              <p>Chicken. Sides. Desserts. &hairsp; &#8226; &hairsp; 4.7</p>
+              <img class="star-icon" src="images/star-icon.png" alt="" />
+              <p>
+                6,800+ ratings &hairsp; &#8226; &hairsp; 0.8mi &hairsp; &#8226;
+                &hairsp; $$
+              </p>
+            </div>
+            <p>
+              <span id="open-text">Open now</span> &hairsp; &#8226; &hairsp;
+              Closes at 9:30 PM
+            </p>
+            <div class="pricing-container">
+              <p>Pricing & Fees</p>
+              <img src="images/info-icon.png" alt="" />
+            </div>
+          </div>
+          <div class="more-info-container">
+            <button>
+              <img src="images/info-icon.png" alt="" />
+              <p>More Info</p>
+            </button>
+          </div>
+        </div>
+        <div class="bottom-container">
+          <div class="delivery-container">
+            <div class="delivery-fee-container">
+              <p id="delivery-fee">$0.00</p>
+              <p>delivery fee</p>
+            </div>
+            <div class="delivery-time-container">
+              <p id="delivery-time">21</p>
+              <p>delivery time</p>
+            </div>
+          </div>
+          <div class="save-and-group-container"></div>
+        </div>
+      </section>
+      <section class="menu">
+        <div class="menu-header">
+          <p class="menu-text">Menu</p>
+          <button class="shift-menu-button" id="menu-left"><</button>
+          <button class="shift-menu-button" id="menu-right">></button>
+        </div>
+        <div class="menu-items">
+          <div class="menu-image-container">
+            <img src="images/menu-items/chick-fil-a/fries.avif" alt="" />
+            <button>Add</button>
+          </div>
+          <p class="item-name">Chick-fil-A Waffle Potato Fries</p>
+          <p class="item-price">$3.35</p>
+        </div>
+      </section>
+    </main>
+    <sidebar id="sidebar">
+      <img src="images/Emptry-order-image.png" alt="" />
+      <p>
+        Your cart is empty <br />
+        Add items to get started
+      </p>
+    </sidebar>
+  </body>
 </html>
