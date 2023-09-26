@@ -3,6 +3,8 @@ import { restaurants } from "../data/restaurants.js";
 let restaurantGridHTML = '';
 let restaurantGrid = document.querySelector('.restaurant-grid');
 
+
+
 function displayGrid(){
   console.log(restaurants);
   restaurants.forEach(restaurant => {
@@ -34,5 +36,12 @@ function displayGrid(){
   restaurantGrid.innerHTML = restaurantGridHTML;
 }
 
+function toggleDelivery(){
+
+}
+
+function togglePickup(){
+
+}
 
 displayGrid();

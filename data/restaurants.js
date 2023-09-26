@@ -8,6 +8,9 @@ export const restaurants = [
         rating: {
             stars: 4.7,
             ratings: 8100
+        },
+        menu_items:{
+
         }
     },
     {    
@@ -19,7 +22,24 @@ export const restaurants = [
         rating: {
             stars: 4.7,
             ratings: 6800
+        },
+        menu_items:{
+            item: {
+            image: "images/menu-items/chick-fil-a/fries.avif",
+            name: "Chick-fil-A Waffle Potato Fries",
+            price: 345
+            },
+            item: {
+                image: "images/menu-items/chick-fil-a/fries.avif",
+                name: "Chick-fil-A Waffle Potato Fries",
+                price: 345
+            },
+            item: {
+                
+            }
+            
         }
+        
     },
     {
         image: "images/restaurant-images/chipotle.jpeg",
@@ -30,6 +50,9 @@ export const restaurants = [
         rating: {
             stars: 4.4,
             ratings: 9200
+        },
+        menu_items:{
+
         }
     },
     {
@@ -41,6 +64,9 @@ export const restaurants = [
         rating: {
             stars: 4.8,
             ratings: 5300
+        },
+        menu_items:{
+
         }
     },
     {
@@ -52,6 +78,9 @@ export const restaurants = [
         rating: {
             stars: 4.5,
             ratings: 6400
+        },
+        menu_items:{
+
         }
     },
     {
@@ -63,6 +92,9 @@ export const restaurants = [
         rating: {
             stars: 4.5,
             ratings: 4000
+        },
+        menu_items:{
+
         }
     },
     {
@@ -74,6 +106,9 @@ export const restaurants = [
         rating: {
             stars: 4.8,
             ratings: 7500
+        },
+        menu_items:{
+
         }
     }
 ];
