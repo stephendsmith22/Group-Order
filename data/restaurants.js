@@ -29,35 +29,60 @@ export const restaurants = [
         },
         menu_items: [
             {
-            image: "images/menu-items/chick-fil-a/fries.avif",
-            name: "Chick-fil-A Waffle Potato Fries",
-            price: 459
+            image: "images/menu-items/chick-fil-a/nuggets-meal.avif",
+            name: "Chick-fil-A Nuggets Meal",
+            price: 1229
             },
             {
                 image: "images/menu-items/chick-fil-a/fries.avif",
                 name: "Chick-fil-A Waffle Potato Fries",
-                price: 379
+                price: 335
+            },
+            {
+                image: "images/menu-items/chick-fil-a/sandwich-meal.avif",
+                name: "Chick-fil-A Sandwich Meal",
+                price: 1209
+            },
+            {
+                image: "images/menu-items/chick-fil-a/nuggets.avif",
+                name: "Chick-fil-A Nuggets",
+                price: 695
+            },
+            {
+                image: "images/menu-items/chick-fil-a/spicy-chicken-sandwich-meal.avif",
+                name: "Chick-fil-A Spicy Chicken Sandwich Meal",
+                price: 1265
+            },
+            {
+                image: "images/menu-items/chick-fil-a/sandwich.avif",
+                name: "Chick-fil-A Chicken Sandwich",
+                price: 679
+            },
+            {
+                image: "images/menu-items/chick-fil-a/spicy-chicken-sandwich.avif",
+                name: "Chick-fil-A Spicy Chicken Sandwich",
+                price: 719
+            },
+            {
+                image: "images/menu-items/chick-fil-a/chick-n-strips.avif",
+                name: "Chick-fil-A Chick-n-Strips",
+                price: 725
+            },
+            {
+                image: "images/menu-items/chick-fil-a/lemonade.avif",
+                name: "Chick-fil-A Lemonade",
+                price: 359
             },
             {
                 image: "images/menu-items/chick-fil-a/fries.avif",
-                name: "Chick-fil-A Waffle Potato Fries",
-                price: 1009
+                name: "Coca Cola",
+                price: 309
             },
             {
                 image: "images/menu-items/chick-fil-a/fries.avif",
-                name: "Chick-fil-A Waffle Potato Fries",
-                price: 889
-            },
-            {
-                image: "images/menu-items/chick-fil-a/fries.avif",
-                name: "Chick-fil-A Waffle Potato Fries",
-                price: 829
-            },
-            {
-                image: "images/menu-items/chick-fil-a/fries.avif",
-                name: "Chick-fil-A Waffle Potato Fries",
-                price: 1279
-            }   
+                name: "Spicy Deluxe Sandwich",
+                price: 809
+            }     
         ] 
     },
     {
