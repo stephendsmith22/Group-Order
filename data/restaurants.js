@@ -16,6 +16,9 @@ export const restaurants = [
                 image: "images/menu-items/bolay/regular-bol.avif",
                 name: "Regular Bol",
                 price: 1199
+            },
+            {
+                name: "evan"
             }
         ]
     },
@@ -101,9 +104,7 @@ export const restaurants = [
             stars: 4.4,
             ratings: 9200
         },
-        menu_items:[
-            
-        ]
+        menu_items:[]
     },
     {
         image: "images/restaurant-images/los-pollos.jpeg",
