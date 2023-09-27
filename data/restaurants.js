@@ -11,9 +11,13 @@ export const restaurants = [
             stars: 4.7,
             ratings: 8100
         },
-        menu_items:{
-
-        }
+        menu_items:[
+            {
+                image: "images/menu-items/bolay/regular-bol.avif",
+                name: "Regular Bol",
+                price: 1199
+            }
+        ]
     },
     {    
         image: "images/restaurant-images/chick-fil-a.jpeg",
