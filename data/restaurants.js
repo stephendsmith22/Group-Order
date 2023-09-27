@@ -97,7 +97,9 @@ export const restaurants = [
             stars: 4.4,
             ratings: 9200
         },
-        menu_items:[]
+        menu_items:[
+            {name: "evan"}
+        ]
     },
     {
         image: "images/restaurant-images/los-pollos.jpeg",
