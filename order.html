@@ -16,11 +16,13 @@
           src="images/header-images/Hamburger_icon.svg.png"
           alt=""
         />
-        <img
-          id="doordash-logo"
-          src="images/header-images/doordash-logo.png"
-          alt=""
-        />
+        <a href="index.html">
+          <img
+            id="doordash-logo"
+            src="images/header-images/doordash-logo.png"
+            alt=""
+          />
+        </a>
         <button class="delivery-button header-button-selected">Delivery</button>
         <button class="pickup-button">Pickup</button>
       </section>
@@ -50,76 +52,50 @@
       </section>
     </header>
     <main>
-      <section class="restaurant-contents">
-        <div class="top-section">
-          <div class="title">
-            <img
-              class="restaurant-background"
-              src="images/restaurant-backgrounds/chick-fil-a-background-image.avif"
-              alt=""
-            />
-            <img
-              class="logo"
-              src="images/restaurant-logos/chick-fil-a-logo.avif"
-              alt=""
-            />
-          </div>
-        </div>
-        <p class="restaurant-name">Chick-fil-A</p>
-        <div class="restaurant-info">
-          <div class="info">
-            <div class="top-info">
-              <p>Chicken. Sides. Desserts. &hairsp; &#8226; &hairsp; 4.7</p>
-              <img class="star-icon" src="images/star-icon.png" alt="" />
-              <p>
-                6,800+ ratings &hairsp; &#8226; &hairsp; 0.8mi &hairsp; &#8226;
-                &hairsp; $$
-              </p>
-            </div>
-            <p>
-              <span id="open-text">Open now</span> &hairsp; &#8226; &hairsp;
-              Closes at 9:30 PM
-            </p>
-            <div class="pricing-container">
-              <p>Pricing & Fees</p>
-              <img src="images/info-icon.png" alt="" />
-            </div>
-          </div>
-          <div class="more-info-container">
-            <button>
-              <img src="images/info-icon.png" alt="" />
-              <p>More Info</p>
+      <section class="restaurant-contents"></section>
+      <section class="menu">
+        <div class="menu-header">
+          <h2>Menu</h2>
+          <div>
+            <button id="prev">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                class="styles__StyledInlineSvg-sc-12l8vvi-0 jFpckg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M10.2071 3.29289C10.5976 3.68342 10.5976 4.31658 10.2071 4.70711L6.91421 8L10.2071 11.2929C10.5976 11.6834 10.5976 12.3166 10.2071 12.7071C9.81658 13.0976 9.18342 13.0976 8.79289 12.7071L4.79289 8.70711C4.60536 8.51957 4.5 8.26522 4.5 8C4.5 7.73478 4.60536 7.48043 4.79289 7.29289L8.79289 3.29289C9.18342 2.90237 9.81658 2.90237 10.2071 3.29289Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </button>
+            <button id="next">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+                class="styles__StyledInlineSvg-sc-12l8vvi-0 jFpckg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M5.79289 12.7071C5.40237 12.3166 5.40237 11.6834 5.79289 11.2929L9.08579 8L5.79289 4.70711C5.40237 4.31658 5.40237 3.68342 5.79289 3.29289C6.18342 2.90237 6.81658 2.90237 7.20711 3.29289L11.2071 7.29289C11.3946 7.48043 11.5 7.73478 11.5 8C11.5 8.26521 11.3946 8.51957 11.2071 8.70711L7.20711 12.7071C6.81658 13.0976 6.18342 13.0976 5.79289 12.7071Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
             </button>
           </div>
         </div>
-        <div class="bottom-container">
-          <div class="delivery-container">
-            <div class="delivery-fee-container">
-              <p id="delivery-fee">$0.00</p>
-              <p>delivery fee</p>
-            </div>
-            <div class="delivery-time-container">
-              <p id="delivery-time">21</p>
-              <p>delivery time</p>
-            </div>
-          </div>
-          <div class="save-and-group-container"></div>
-        </div>
-      </section>
-      <section class="menu">
-        <div class="menu-header">
-          <p class="menu-text">Menu</p>
-          <button class="shift-menu-button" id="menu-left"><</button>
-          <button class="shift-menu-button" id="menu-right">></button>
-        </div>
-        <div class="menu-items">
-          <div class="menu-image-container">
-            <img src="images/menu-items/chick-fil-a/fries.avif" alt="" />
-            <button>Add</button>
-          </div>
-          <p class="item-name">Chick-fil-A Waffle Potato Fries</p>
-          <p class="item-price">$3.35</p>
-        </div>
+        <div class="menu-item-carousel"></div>
       </section>
     </main>
     <sidebar id="sidebar">
@@ -129,5 +105,6 @@
         Add items to get started
       </p>
     </sidebar>
+    <script type="module" src="scripts/orderPages.js"></script>
   </body>
 </html>

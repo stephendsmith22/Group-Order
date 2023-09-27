@@ -1,5 +1,12 @@
 main {
     margin: 85px 353px 0 20px;
+    padding-bottom: 50px;
+}
+
+.restaurant-contents {
+    border-bottom: 1px solid rgb(228, 228, 228);
+    padding-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .title {
@@ -18,11 +25,12 @@ main {
     position: absolute;
     left: 20px;
     bottom: -35px;
-    z-index: 100;
+    z-index: 50;
     width: 80px;
     border-radius: 50%;
     border: 2px solid white;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.342);
+    background-color: white;
 }
 
 .restaurant-name {
@@ -67,7 +75,7 @@ main {
     object-fit: contain;
 }
 
-.more-info-container button {
+.more-info-container button, .bottom-container button {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -84,18 +92,144 @@ main {
     width: 20px;
 }
 
-.more-info-container p {
+.more-info-container p, .save-and-group-container p {
     margin-left: 2px;
     font-size: 15px;
     font-weight: bold;
 }
 
-.more-info-container button:hover {
+.more-info-container button:hover, .bottom-container button:hover, .menu-header button:hover {
     background-color: rgb(196, 196, 196);
 }
 
+.bottom-container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .delivery-container {
-    border: 1px solid gray;
+    display: inline-flex;
+    border: 1px solid rgb(219, 219, 219);
+    border-radius: 8px;
+    height: 60px;
+}
+
+.delivery-fee-container, .delivery-time-container {
+    width: 180px;
+    padding: 10px;
+    text-align: center;
+}
+
+.delivery-fee-container h1, .delivery-time-container h1 {
+    font-size: 17px;
+}
+
+.delivery-fee-container p, .delivery-time-container p {
+    font-size: 14px;
+    color: rgb(118, 118, 118);
+}
+
+.line {
+    margin: 13px 0;
+    border: 1px solid rgb(219, 219, 219);
+}
+
+.save-and-group-container {
+    display: flex;
+}
+
+.save-and-group-container button {
+    height: 34px;
+}
+
+#save-button {
+    margin-right: 20px;
+}
+
+#save-button p {
+    padding: 0 1px 0 8px;
+}
+
+#group-order-button p {
+    padding: 0 0 0 3px
+}
+
+.menu-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.menu-header button {
+    background-color: rgb(228, 228, 228);
+    border: none;
+    border-radius: 50%;
+    padding: 6px 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+#prev {
+    margin-right: 3px;
+}
+
+
+.menu-item-carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+    overflow: hidden;
+}
+
+.menu-item {
+    flex: 0 0 18%;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.menu-item:active {
+    background-color: rgb(240, 240, 240);
+}
+
+.menu-image-container {
+    position: relative;
+}
+
+.menu-image-container img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#add-button {
+    position: absolute;
+    bottom: 20px;
+    right: 15px;
+    background-color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 7px 12px;
+    border-radius: 20px;
+    border: none;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.137);
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+#add-button:hover {
+    background-color: rgb(240, 240, 240);
+}
+
+
+.item-name {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+
+.item-price {
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(78, 78, 78);
+    margin-bottom: 7px;
 }
 
 #sidebar {
