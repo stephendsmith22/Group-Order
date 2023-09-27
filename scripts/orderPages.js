@@ -155,7 +155,7 @@ function displayMenuCarousel(){
               <button id="add-button">Add</button>
             </div>
             <p class="item-name">${item.name}</p>
-            <p class="item-price">$${item.price / 100}</p>
+            <p class="item-price">$${(item.price / 100).toFixed(2)}</p>
           </div>`;
     });
     document.querySelector(".menu-item-carousel").innerHTML = menuHTML;
