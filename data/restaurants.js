@@ -98,7 +98,7 @@ export const restaurants = [
             ratings: 9200
         },
         menu_items:[
-            {name: "evan"}
+            
         ]
     },
     {
