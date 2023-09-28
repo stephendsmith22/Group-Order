@@ -16,13 +16,13 @@ displayMenuCarousel();
 
 prevButton.addEventListener('click', () => {
   if(true){
-    menuTranslate += carousel.clientWidth / 6;
+    menuTranslate += 2 * (carousel.clientWidth / 3);
     carousel.style.transform = "translateX(" + menuTranslate + "px" + ")";
   }
 });
 
 nextButton.addEventListener('click', () => {
-  menuTranslate -= carousel.clientWidth / 6;
+  menuTranslate -= 2 * (carousel.clientWidth / 3);
   carousel.style.transform = "translateX(" + menuTranslate + "px" + ")";
 });
 
