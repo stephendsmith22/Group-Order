@@ -1,29 +1,29 @@
 import { restaurants } from "../data/restaurants.js";
 
+const menuContainer = document.querySelector(".menu");
 const carousel = document.querySelector('.menu-item-carousel');
 const prevButton = document.getElementById('prev');
 const nextButton = document.getElementById("next");
-const items = document.querySelectorAll('.menu-item');
-let currentIndex = 0;
+let menuTranslate = 0;
 
 let topSectionHTML = '', menuHTML = '';
 const restaurantName = localStorage.getItem("current_restaurant");
 const curIndex = restaurants.findIndex(rName => rName.name === restaurantName);
 const curRestaurant = restaurants[curIndex];
-console.log(curRestaurant.name);
+
+displayTitlePage();
+displayMenuCarousel();
 
 prevButton.addEventListener('click', () => {
-    if (currentIndex > 0) {
-        currentIndex--;
-        carousel.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
-    }
+  if(true){
+    menuTranslate += carousel.clientWidth / 6;
+    carousel.style.transform = "translateX(" + menuTranslate + "px" + ")";
+  }
 });
 
 nextButton.addEventListener('click', () => {
-    if (currentIndex < items.length - 6) {
-      currentIndex++;
-      carousel.style.transform = `translateX(-${currentIndex * itemWidth}px)`;
-    }
+  menuTranslate -= carousel.clientWidth / 6;
+  carousel.style.transform = "translateX(" + menuTranslate + "px" + ")";
 });
 
 function displayTitlePage(){
@@ -147,7 +147,6 @@ function displayTitlePage(){
 
 function displayMenuCarousel(){
     curRestaurant.menu_items.forEach(item => {
-        console.log(item);
         menuHTML += `
         <div class="menu-item">
             <div class="menu-image-container">
@@ -160,6 +159,3 @@ function displayMenuCarousel(){
     });
     document.querySelector(".menu-item-carousel").innerHTML = menuHTML;
 }
-
-displayTitlePage();
-displayMenuCarousel();
