@@ -17,9 +17,137 @@ export const restaurants = [
                 name: "Regular Bol",
                 price: 1199
             },
+             {
+                image: "images/menu-items/bolay/large-bol.avif",
+                name: "Large Bol",
+                price: 1499
+             }, 
+             {
+                image: "images/menu-items/bolay/choco-chip.avif",
+                name: "Chocolate Chip Cookies",
+                price: 213
+             },
+             {
+                image: "images/menu-items/bolay/strawberry-pudding.avif",
+                name: "Strawberry Chia Seed Pudding", 
+                price: 323
+             },  
+             {
+                image: "images/menu-items/bolay/Hawiian-healer.avif",
+                name: "Hawaiian Healer - Pineapple Ginger",
+                price: 474
+             },
+             {
+                image: "images/menu-items/bolay/sweet-south-lemonade.avif",
+                name: "Sweet South Lemonade",
+                price: 474
+             },
+             {
+                image: "images/menu-items/bolay/Kids-bol.avif",
+                name: "Kids Bol",
+                price: 659
+             },
+             {
+                image: "images/menu-items/bolay/Pepsi-bottled.avif",
+                name: "Pepsi Bottled",
+                price: 330
+             },
             {
-                name: "evan"
-            }
+                image: "images/menu-items/bolay/diet-pepsi.avif",
+                name: "Diet Pepsi Bottled",
+                price: 330
+            },
+            {
+                image: "images/menu-items/bolay/wraps.avif",
+                name: "Wraps",
+                price: 1199
+            },
+            {
+                image: "images/menu-items/bolay/steak-bol.avif",
+                name: "Steak Au Jus Bol",
+                price: 1559
+            },
+            {
+                image: "images/menu-items/bolay/lemon-chicken-bol.avif",
+                name: "Lemon Chicken Bol",
+                price: 1439
+            },
+            {
+                image: "images/menu-items/bolay/lipton-tea.avif",
+                name: "Lipton Peach Tea",
+                price: 330
+            },
+            {
+                image: "images/menu-items/bolay/spicy-thai-shrimp-bol.avif",
+                name: "Spicy Thai Shrimp Bowl",
+                price: 1499
+            },
+            {
+                image: "images/menu-items/bolay/byo-fam-meal.avif",
+                name: "Build your own Family Meal",
+                price: 5880
+            },
+            {
+                image: "images/menu-items/bolay/ter-chicken-bol.avif",
+                name: "Teriyaki Chicken Bol",
+                price: 1199
+            },
+            {
+                image: "images/menu-items/bolay/ter-chicken-rice-wraps.avif",
+                name: "Teriyaki Chicken & Rice Wraps",
+                price: 1199
+            },
+            {
+                image: "images/menu-items/bolay/spark-water.avif",
+                name: "San Pellegrino Sparkling Water",
+                price: 354
+            },
+            {
+                image: "images/menu-items/bolay/salmon-bol.avif",
+                name: "Roasted Salmon bol",
+                price: 1619
+            },
+            {
+                image: "images/menu-items/bolay/tofu-bol.avif",
+                name: "Miso Tofu Bol",
+                price: 1199
+            },
+            {
+                image: "images/menu-items/bolay/steak-au-jus-wrap.avif",
+                name: "Steak Au Jus & Rice Wrap",
+                price: 1559
+            },
+            {
+                image: "images/menu-items/bolay/celsius.avif",
+                name: "Celsius Fiji Apple Pear",
+                price: 359
+            },
+            {
+                image: "images/menu-items/bolay/shrimp-rice-wrap.avif",
+                name: "Shrimp & Black Rice Wrap",
+                price: 1499
+            },
+            {
+                image: "images/menu-items/bolay/lemon-chicken-kale-wrap.avif",
+                name: "Lemon Chicken & Kale Wrap",
+                price: 1199
+            },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            
         ]
     },
     {    
