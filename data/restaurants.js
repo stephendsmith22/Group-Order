@@ -43,7 +43,7 @@ export const restaurants = [
                 price: 474
              },
              {
-                image: "images/menu-items/bolay/Kids-bol.avif",
+                image: "images/menu-items/bolay/Kids-bol-new.avif",
                 name: "Kids Bol",
                 price: 659
              },
@@ -93,7 +93,7 @@ export const restaurants = [
                 price: 1199
             },
             {
-                image: "images/menu-items/bolay/ter-chicken-rice-wraps.avif",
+                image: "images/menu-items/bolay/ter-chicken-rice-wrap.avif",
                 name: "Teriyaki Chicken & Rice Wraps",
                 price: 1199
             },
