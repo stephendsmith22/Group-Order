@@ -180,7 +180,6 @@ main {
 .menu-item-carousel {
     display: flex;
     transition: transform 0.5s ease;
-    overflow: scroll;
 }
 
 .menu-item-carousel::-webkit-scrollbar {
