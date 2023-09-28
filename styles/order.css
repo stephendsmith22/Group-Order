@@ -173,11 +173,17 @@ main {
     margin-right: 3px;
 }
 
+.menu {
+    overflow-x: hidden;
+}
 
 .menu-item-carousel {
     display: flex;
     transition: transform 0.5s ease;
-    overflow: hidden;
+}
+
+.menu-item-carousel::-webkit-scrollbar {
+    visibility: hidden;
 }
 
 .menu-item {
