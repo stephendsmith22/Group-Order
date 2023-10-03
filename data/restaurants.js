@@ -11,6 +11,7 @@ export const restaurants = [
             stars: 4.7,
             ratings: 8100
         },
+        carouselIndex: 0,
         menu_items:[
             {
                 image: "images/menu-items/bolay/regular-bol.avif",
@@ -131,23 +132,7 @@ export const restaurants = [
                 image: "images/menu-items/bolay/lemon-chicken-kale-wrap.avif",
                 name: "Lemon Chicken & Kale Wrap",
                 price: 1199
-            },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            
+            },            
         ]
     },
     {    
@@ -162,6 +147,7 @@ export const restaurants = [
             stars: 4.7,
             ratings: 6800
         },
+        carouselIndex: 0,
         menu_items: [
             {
             image: "images/menu-items/chick-fil-a/nuggets-meal.avif",
@@ -232,6 +218,7 @@ export const restaurants = [
             stars: 4.4,
             ratings: 9200
         },
+        carouselIndex: 0,
         menu_items:[]
     },
     {
@@ -246,6 +233,7 @@ export const restaurants = [
             stars: 4.8,
             ratings: 5300
         },
+        carouselIndex: 0,
         menu_items:[]
     },
     {
@@ -274,6 +262,7 @@ export const restaurants = [
             stars: 4.5,
             ratings: 4000
         },
+        carouselIndex: 0,
         menu_items:[]
     },
     {
@@ -288,6 +277,7 @@ export const restaurants = [
             stars: 4.8,
             ratings: 7500
         },
+        carouselIndex: 0,
         menu_items:[]
     }
 ];

@@ -15,15 +15,23 @@ displayTitlePage();
 displayMenuCarousel();
 
 prevButton.addEventListener('click', () => {
-  if(true){
+  console.log("Current index: " + curRestaurant.carouselIndex);
+  if(curRestaurant.carouselIndex != 0){
     menuTranslate += 2 * (carousel.clientWidth / 3);
     carousel.style.transform = "translateX(" + menuTranslate + "px" + ")";
+    curRestaurant.carouselIndex--;
   }
+  console.log("New index: " + curRestaurant.carouselIndex);
 });
 
 nextButton.addEventListener('click', () => {
-  menuTranslate -= 2 * (carousel.clientWidth / 3);
-  carousel.style.transform = "translateX(" + menuTranslate + "px" + ")";
+  console.log("Current index: " + curRestaurant.carouselIndex);
+  if(curRestaurant.carouselIndex != 10){
+    menuTranslate -= 2 * (carousel.clientWidth / 3);
+    carousel.style.transform = "translateX(" + menuTranslate + "px" + ")";
+    curRestaurant.carouselIndex++;
+  }
+  console.log("New index: " + curRestaurant.carouselIndex);
 });
 
 function displayTitlePage(){
